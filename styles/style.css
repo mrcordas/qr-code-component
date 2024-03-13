@@ -1,7 +1,13 @@
-body{
+body, html{
     background-color: #D5E1EF;
+    height: 100%;
 }
 
+main{
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
 #content{
     width: 320px;
     height: 497px;
@@ -23,5 +29,11 @@ body{
 #info h5{
     font-weight: bold;
 }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
