@@ -29,11 +29,6 @@ main{
 #info h5{
     font-weight: bold;
 }
-.attribution { 
-    font-size: 11px; 
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+#info p{
+    color: #7D889E;
 }
-.attribution a { color: hsl(228, 45%, 44%); }
